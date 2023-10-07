@@ -1,0 +1,20 @@
+### HOW TO RUN:
+On the command prompt change directory where `SortLinkedList.java` is and enter command
+`java SortLinkedList`. Once executed the prompt:
+```
+Enter list of integers:
+Please use one line and seprated with spaces 
+ex.4 2 1
+```
+Type the numbers separated by a space and press enter
+
+### AlGORITHM:
+1. Initialize a `Scanner` object named scanner and an Integer `LinkedList` object named linkedList.
+2. Prompt user to enter list of numbers.
+3. Call `scanner.nextLine()` and assign value to a `String` variable named input.
+4. Perform `split()` on input into `String[]` named input array
+5. Execute enhanced `for` loop on `inputArray` and add the variable `str` to `linkedList`
+6. Perfom `Collections.sort()` on linked list
+7. Print our sorted members.
+8. close `scanner`
+
