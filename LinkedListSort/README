@@ -1,6 +1,9 @@
 ### HOW TO RUN:
-On the command prompt change directory where `SortLinkedList.java` is and enter command
-`java SortLinkedList`. Once executed the prompt:
+On the command prompt change directory where `SortLinkedList.java` is:
+1. enter command `javac SortLinkedList.java`
+2. After compilation, enter command `java SortLinkedList`. 
+
+Once executed the prompt:
 ```
 Enter list of integers:
 Please use one line and seprated with spaces 
