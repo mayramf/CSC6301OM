@@ -1,5 +1,8 @@
 ### HOW TO RUN:
-On the command prompt change directory where `MainClass.java` is and enter command
+On the command prompt change directory where `MainClass.java` is:
+1. enter command `javac MainClass.java`
+2. After compilation, enter command `java MainClass`. 
+
 `java MainClass`. Once executed the prompt:
 ```
 Enter list of integers:
